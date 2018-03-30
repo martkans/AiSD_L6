@@ -20,4 +20,8 @@ public class Pair<K, V> {
     public void setValue(V value) {
         this.value = value;
     }
+
+    public void setKey(K key) {
+        this.key = key;
+    }
 }

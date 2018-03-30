@@ -15,9 +15,6 @@ abstract public class MyHashTable<K,V> implements Map<K, V> {
     }
 
     @Override
-    abstract public boolean containsKey(Object key);
-
-    @Override
     abstract public boolean containsValue(Object value);
 
     @Override
@@ -41,6 +38,8 @@ abstract public class MyHashTable<K,V> implements Map<K, V> {
     @Override
     abstract public Set<Entry<K, V>> entrySet();
 
+    abstract public void show();
+
     @Override
     public synchronized int size() {
         return size;
@@ -49,6 +48,14 @@ abstract public class MyHashTable<K,V> implements Map<K, V> {
     @Override
     public synchronized boolean isEmpty() {
         return size == 0;
+    }
+
+    @Override
+    public synchronized boolean containsKey(Object key) {
+        if (key == null) throw new NullPointerException();
+        if (get(key) == null)
+            return false;
+        return true;
     }
 
     @Override

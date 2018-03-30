@@ -17,16 +17,6 @@ public class MyHashTable_SC<K,V> extends MyHashTable<K,V> {
         super(map);
     }
 
-    public synchronized boolean containsKey(Object key) {
-        if (key == null) throw new NullPointerException();
-        K k = (K) key;
-        int hash = k.hashCode() % table.length;
-        for (Pair pair:table[hash])
-            if (pair.getKey() == k)
-                return true;
-        return false;
-    }
-
     @Override
     public boolean containsValue(Object value) {
         if (value == null) throw new NullPointerException();
@@ -57,9 +47,16 @@ public class MyHashTable_SC<K,V> extends MyHashTable<K,V> {
         if (key == null || value == null) throw new NullPointerException();
         Pair<K, V> temp = new Pair<>(key,value);
         int hash = key.hashCode() % table.length;
-        V previousValue = remove(key);
-        table[hash].add(temp);
-        size++;
+        V previousValue = get(key);
+        int i = 0;
+        if (previousValue != null){
+            while (table[hash].get(i).getKey() != key)
+                i++;
+            table[hash].set(i, temp);
+        } else {
+            table[hash].add(temp);
+            size++;
+        }
         return previousValue;
     }
 
@@ -124,4 +121,7 @@ public class MyHashTable_SC<K,V> extends MyHashTable<K,V> {
     public Set<Entry<K,V>> entrySet() {
         return null;
     }
+
+    @Override
+    public void show() { }
 }
