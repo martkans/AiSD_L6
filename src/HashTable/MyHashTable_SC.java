@@ -119,9 +119,16 @@ public class MyHashTable_SC<K,V> extends MyHashTable<K,V> {
 
     @Override
     public Set<Entry<K,V>> entrySet() {
-        return null;
+        if (isEmpty()) return null;
+        Set<Entry<K, V>> set = new HashSet();
+        for (MyLinkedList linkedList : table)
+            for (Object temp : linkedList) {
+                Pair pair = (Pair) temp;
+                set.add(pair);
+            }
+        return set;
     }
 
-    @Override
-    public void show() { }
+//    @Override
+//    public void show() { }
 }

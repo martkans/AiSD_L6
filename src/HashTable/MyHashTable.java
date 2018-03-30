@@ -38,7 +38,7 @@ abstract public class MyHashTable<K,V> implements Map<K, V> {
     @Override
     abstract public Set<Entry<K, V>> entrySet();
 
-    abstract public void show();
+//    abstract public void show();
 
     @Override
     public synchronized int size() {

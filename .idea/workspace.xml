@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0694d99c-1131-438b-b115-9e14ed43bffc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashTable/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/MyHashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashTable/MyHashTable_OA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/MyHashTable_OA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HashTable/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/MyHashTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/MyHashTableTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,34 +21,11 @@
       <file leaf-file-name="MyHashTable_SC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3204#3205#0" expanded="true" />
-                <element signature="e#3231#3232#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyHashTableTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/MyHashTableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
+            <state relative-caret-position="149">
+              <caret line="131" selection-start-line="131" selection-start-column="2" selection-end-line="132" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyHashTable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-822">
-              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -58,12 +33,8 @@
       <file leaf-file-name="MyHashTable_OA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable_OA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-              <folding>
-                <element signature="e#3190#3191#0" expanded="true" />
-                <element signature="e#3217#3218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="143" selection-start-line="143" selection-start-column="2" selection-end-line="150" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -71,8 +42,29 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyHashTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="40" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyHashTableTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/MyHashTableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3808">
+              <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,12 +101,12 @@
         <option value="$PROJECT_DIR$/src/Tests/HashTable/MyHashTable_SCTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/MyHashTable_OATest.java" />
         <option value="$PROJECT_DIR$/src/Tests/MyHashTable_SCTest.java" />
-        <option value="$PROJECT_DIR$/src/HashTable/Pair.java" />
         <option value="$PROJECT_DIR$/src/Tests/MyHashTableTest.java" />
-        <option value="$PROJECT_DIR$/src/HashTable/MyHashTable.java" />
-        <option value="$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java" />
-        <option value="$PROJECT_DIR$/src/HashTable/MyHashTable_OA.java" />
+        <option value="$PROJECT_DIR$/src/HashTable/Pair.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/HashTable/MyHashTable_OA.java" />
+        <option value="$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java" />
+        <option value="$PROJECT_DIR$/src/HashTable/MyHashTable.java" />
       </list>
     </option>
   </component>
@@ -152,6 +144,18 @@
               <item name="[AiSD] L6 242468" type="b2602c69:ProjectViewProjectNode" />
               <item name="[AiSD] L6 242468" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="[AiSD] L6 242468" type="b2602c69:ProjectViewProjectNode" />
+              <item name="[AiSD] L6 242468" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HashTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="[AiSD] L6 242468" type="b2602c69:ProjectViewProjectNode" />
+              <item name="[AiSD] L6 242468" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="[AiSD] L6 242468" type="b2602c69:ProjectViewProjectNode" />
@@ -201,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MyHashTableTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="[AiSD] L6 242468" />
@@ -325,9 +329,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyHashTableTest" />
         <item itemvalue="JUnit.MyHashTableTest.replace1" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyHashTableTest.replace" />
         <item itemvalue="JUnit.MyHashTableTest.remove1" />
       </list>
@@ -345,17 +349,11 @@
       <workItem from="1522345222264" duration="12119000" />
       <workItem from="1522399202206" duration="6548000" />
       <workItem from="1522406091964" duration="2475000" />
-      <workItem from="1522416590868" duration="8989000" />
+      <workItem from="1522416590868" duration="10742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyHashTableTest_remove - 2018.03.30 at 17h 18m 29s.xml">
-      <configuration name="MyHashTableTest.remove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyHashTableTest_keySet - 2018.03.30 at 17h 20m 24s.xml">
-      <configuration name="MyHashTableTest.keySet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyHashTableTest_values - 2018.03.30 at 17h 21m 54s.xml">
       <configuration name="MyHashTableTest.values" configurationId="JUnit" />
     </history-entry>
@@ -380,13 +378,18 @@
     <history-entry file="MyHashTableTest - 2018.03.30 at 17h 29m 00s.xml">
       <configuration name="MyHashTableTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyHashTableTest_replace1 - 2018.03.30 at 18h 28m 34s.xml">
+      <configuration name="MyHashTableTest.replace1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHashTableTest - 2018.03.30 at 18h 28m 43s.xml">
+      <configuration name="MyHashTableTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37504000" />
+    <option name="totallyTimeSpent" value="39257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -398,11 +401,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12241653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4435612" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19985358" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19985358" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -468,8 +471,6 @@
           <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,10 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-          <folding>
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,8 +495,6 @@
           <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,8 +522,6 @@
           <caret line="89" column="19" lean-forward="true" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -537,10 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,61 +661,53 @@
     <entry file="file://$PROJECT_DIR$/src/Tests/MyHashTable_OATest.java" />
     <entry file="file://$PROJECT_DIR$/src/HashTable/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="427">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding>
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/MyHashTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3204#3205#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable_OA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="143" selection-start-line="143" selection-start-column="2" selection-end-line="150" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable_SC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="131" selection-start-line="131" selection-start-column="2" selection-end-line="132" selection-end-column="28" />
           <folding>
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTable/MyHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-822">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="40" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/MyHashTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3808">
+          <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

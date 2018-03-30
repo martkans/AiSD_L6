@@ -113,7 +113,13 @@ public class MyHashTable_OA<K,V> extends MyHashTable<K,V> {
 
     @Override
     public synchronized Set<Entry<K, V>> entrySet() {
-        return null;
+        if (isEmpty()) return null;
+        Set<Entry<K,V>> set = new HashSet();
+        for (Pair pair: table)
+            if (pair != null)
+                if (pair.getKey() != null)
+                    set.add(pair);
+        return set;
     }
 
     private synchronized void rehash(){
@@ -135,12 +141,12 @@ public class MyHashTable_OA<K,V> extends MyHashTable<K,V> {
         }
     }
 
-    public void show(){
-        for (int i = 0; i < table.length; i++){
-            if (table[i] == null)
-                System.out.println("[" + i + "] null");
-            else
-                System.out.println("[" + i + "] " + table[i].getKey() + " = " + table[i].getValue());
-        }
-    }
+//    public void show(){
+//        for (int i = 0; i < table.length; i++){
+//            if (table[i] == null)
+//                System.out.println("[" + i + "] null");
+//            else
+//                System.out.println("[" + i + "] " + table[i].getKey() + " = " + table[i].getValue());
+//        }
+//    }
 }
